@@ -90,7 +90,7 @@ int main(int argc, char* argv[])
     }
     if (rank == 0)
     {
-        printf("\n\nThe sum of all values in the array is = %d\n", sum);
+        printf("\n\nThe sum of all values in the array is = %d\n", my_sum);
         printf("\n");
     }
     MPI_Barrier(MPI_COMM_WORLD);
